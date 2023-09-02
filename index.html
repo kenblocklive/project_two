@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #4a4a4a;
+      }
+      .categories > a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: #ffffff;
+      }
+      .categories > a:hover {
+        text-decoration: underline;
+      }
+      .categories > a:last-child {
+        margin-right: 0;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+      }
+      .row .col {
+        width: calc(100% / 3);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="categories">
+      <a href="">Политика</a> <a href="">Общество</a> <a href="">Экономика</a>
+      <a href="">В мире</a> <a href="">Проишествия</a> <a href="">Спорт</a>
+      <a href="">Наука</a>
+      <a href="">Культура</a> <a href="">Недвижимость</a>
+      <a href="">Религия</a> <a href="">Наука</a> <a href="">Туризм</a>
+    </nav>
+    <div class="row">
+      <div class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam
+          magnam officiis reprehenderit enim eligendi, ullam numquam quas
+          quaerat, in corporis eaque sed voluptatum iste nesciunt similique
+          itaque quod! Cupiditate!
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui facere,
+          voluptates iure cupiditate molestiae repellat impedit et voluptatem
+          itaque, labore quibusdam assumenda officiis beatae sed, laborum a
+          aperiam soluta veritatis?
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          voluptatibus deleniti praesentium, assumenda beatae aperiam,
+          laudantium at sed tempore alias repellat doloribus esse nam
+          reprehenderit deserunt dolor tempora soluta quam.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
